@@ -6,7 +6,7 @@ const ambiente_model = require('../modelos/Ambiente');
 const usuario_model = require('../modelos/Usuario');
 
 const conexion = new Sequelize("qj2ioA03vp", "qj2ioA03vp", "kcnNzeFjGv", {
-  host: 'emotemysql.com',
+  host: 'remotemysql.com',
   dialect: 'mysql',
   dialectOptions: {
     useUTC: false,
