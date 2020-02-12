@@ -3,7 +3,9 @@ const {Op} = require('sequelize');
 
 const postReserva = (req,res)=>{
     let {objReserva} = req.body;
-    // antes de crear la reserva ver si esta disponible ese ambiente y ver si el tipo de usuario que autoriza es de tipo 3 sino no me deja mardar
+    // antes de crear la reserva ver si esta disponible ese ambiente y ver si el tipo de usuario que autoriza es de tipo 3 sino no me deja wardar
+    console.log(objReserva.usu_autoriza);
+    
     Usuario.findOne({
         where:{
             usu_id: objReserva.usu_autoriza

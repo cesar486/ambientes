@@ -5,8 +5,11 @@ const reserva_model = require('../modelos/Reserva');
 const ambiente_model = require('../modelos/Ambiente');
 const usuario_model = require('../modelos/Usuario');
 
-const conexion = new Sequelize("qj2ioA03vp", "qj2ioA03vp", "kcnNzeFjGv", {
-  host: 'remotemysql.com',
+const conexion = new Sequelize(
+  " 1DNQRVdSGx","1DNQRVdSGx ","66idCRB3rp",{
+  // "ambientes", "root", "root", {
+  // host: 'localhost',
+  host:'remotemysql.com',
   dialect: 'mysql',
   dialectOptions: {
     useUTC: false,
