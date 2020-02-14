@@ -53,7 +53,7 @@ class Server {
       // {force:true} => obligan a borrar la tabla y crearla nuevamente
       // cada vez que el proyecto se ejecuta
       // Pabellon.sync({ force: true });
-      conexion.sync({ force: true }).then(() => {
+      conexion.sync({ force: false }).then(() => {
         console.log("Base de datos sincronizada");
       })
     });
