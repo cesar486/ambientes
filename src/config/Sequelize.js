@@ -8,7 +8,7 @@ const usuario_model = require('../modelos/Usuario');
 const conexion = new Sequelize(
 
   ///datos base remota cesitar
-  " 1DNQRVdSGx","1DNQRVdSGx ","66idCRB3rp",{
+  "1DNQRVdSGx","1DNQRVdSGx","66idCRB3rp",{
     host:'remotemysql.com',
   //"ambientes", "root", "amigos", {
   //host: 'localhost',
