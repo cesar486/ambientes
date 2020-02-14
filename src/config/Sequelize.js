@@ -6,10 +6,13 @@ const ambiente_model = require('../modelos/Ambiente');
 const usuario_model = require('../modelos/Usuario');
 
 const conexion = new Sequelize(
+
+  ///datos base remota cesitar
   " 1DNQRVdSGx","1DNQRVdSGx ","66idCRB3rp",{
-  // "ambientes", "root", "root", {
-  // host: 'localhost',
-  host:'remotemysql.com',
+    host:'remotemysql.com',
+  //"ambientes", "root", "amigos", {
+  //host: 'localhost',
+  
   dialect: 'mysql',
   dialectOptions: {
     useUTC: false,
